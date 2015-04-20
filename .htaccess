@@ -1,0 +1,9 @@
+# Force ssl
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://epijim.uk/$1 [R=301,L]
+
+# 404
+
+ErrorDocument 404 /404.html

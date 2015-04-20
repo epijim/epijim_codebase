@@ -1,0 +1,369 @@
+<!-- Table generated in R 3.0.2 by googleVis 0.5.4 package -->
+<!-- Thu Oct  2 20:08:03 2014 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataTableID2cb261e82b53 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "Baron Of Beef",
+4 
+],
+[
+ "Bath House",
+4 
+],
+[
+ "Boathouse P.H.",
+4 
+],
+[
+ "BRB The Cow",
+4 
+],
+[
+ "Champion Of The Thames",
+5 
+],
+[
+ "Clarendon Arms",
+5 
+],
+[
+ "Earl of Beaconsfield",
+5 
+],
+[
+ "Earl Of Derby",
+5 
+],
+[
+ "Green Dragon Public House",
+5 
+],
+[
+ "Jenny Wren",
+5 
+],
+[
+ "King Street Run P.H.",
+4 
+],
+[
+ "Kingston Arms",
+4 
+],
+[
+ "Live And Let Live",
+1 
+],
+[
+ "Lord Byron Inn",
+3 
+],
+[
+ "Old Spring Public House",
+5 
+],
+[
+ "Panton Arms",
+1 
+],
+[
+ "Pickerel Inn",
+5 
+],
+[
+ "Prince Regent",
+4 
+],
+[
+ "Red Bull",
+4 
+],
+[
+ "Red Lion",
+5 
+],
+[
+ "Salisbury Arms",
+3 
+],
+[
+ "Sir Isaac Newton",
+5 
+],
+[
+ "Six Bells",
+5 
+],
+[
+ "St Radegund",
+5 
+],
+[
+ "The Alma",
+5 
+],
+[
+ "The Anchor Public House",
+5 
+],
+[
+ "The Avery",
+4 
+],
+[
+ "The Blue Moon",
+4 
+],
+[
+ "The Brook Public House",
+4 
+],
+[
+ "The Burleigh Arms",
+5 
+],
+[
+ "The Cambridge Blue",
+4 
+],
+[
+ "The Cambridge Brew House",
+4 
+],
+[
+ "The Carlton Arms Public House",
+5 
+],
+[
+ "The Carpenters Arms",
+4 
+],
+[
+ "The Castle",
+3 
+],
+[
+ "The Corner House",
+4 
+],
+[
+ "The County Arms",
+2 
+],
+[
+ "The Dobblers Inn",
+4 
+],
+[
+ "The Duke Of Cambridge",
+5 
+],
+[
+ "The Eagle Public House",
+4 
+],
+[
+ "The Elm Tree",
+5 
+],
+[
+ "The Emperor",
+1 
+],
+[
+ "The Empress",
+4 
+],
+[
+ "The Flying Pig",
+4 
+],
+[
+ "The Fountain Inn",
+5 
+],
+[
+ "The Geldart",
+5 
+],
+[
+ "The Golden Hind",
+5 
+],
+[
+ "The Granta",
+4 
+],
+[
+ "The Grapes",
+1 
+],
+[
+ "The Great Northern",
+3 
+],
+[
+ "The Green Man",
+5 
+],
+[
+ "The Hawks Club",
+4 
+],
+[
+ "The Hopbine",
+5 
+],
+[
+ "The Maypole P.H.",
+5 
+],
+[
+ "The Med",
+5 
+],
+[
+ "The Mill (new)",
+4 
+],
+[
+ "The Milton Arms",
+4 
+],
+[
+ "The Mitre Public House",
+5 
+],
+[
+ "The Portland Arms",
+4 
+],
+[
+ "The Punter",
+4 
+],
+[
+ "The Rathmore Club",
+4 
+],
+[
+ "The Regal",
+5 
+],
+[
+ "The Rock",
+4 
+],
+[
+ "The Ship",
+5 
+],
+[
+ "The Snug Grafton",
+3 
+],
+[
+ "The Snug Lensfield",
+4 
+],
+[
+ "The Tally Ho",
+3 
+],
+[
+ "The Tram Depot",
+5 
+],
+[
+ "The Waterman",
+4 
+],
+[
+ "The White Swan",
+4 
+],
+[
+ "The Wrestlers",
+3 
+] 
+];
+data.addColumn('string','Pub name');
+data.addColumn('number','Hygiene rating');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartTableID2cb261e82b53() {
+var data = gvisDataTableID2cb261e82b53();
+var options = {};
+options["allowHtml"] = true;
+options["page"] = "enable";
+
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID2cb261e82b53')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID2cb261e82b53);
+})();
+function displayChartTableID2cb261e82b53() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID2cb261e82b53"></script>
+ 
+<!-- divChart -->
+  
+<div id="TableID2cb261e82b53" 
+  style="width: automatic; height: automatic;">
+</div>

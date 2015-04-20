@@ -1,0 +1,16 @@
+# Footer navigation links
+
+- title: Home
+  url: /
+
+- title: Papers
+  url: /my-papers/
+
+- title: About
+  url: /about/
+
+- title: Legal
+  url: /terms/
+
+- title: R bloggers
+  url: http://www.r-bloggers.com

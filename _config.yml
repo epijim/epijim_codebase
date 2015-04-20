@@ -1,0 +1,44 @@
+# Site wide configuration
+
+title: James Black
+description: "Jesuan and PhD student at Cambridge University"
+logo: 120x120.gif
+teaser: 400x250.gif
+locale: en_US
+url: https://epijim.uk # https://epijim.uk # http://0.0.0.0:4000
+disqus-shortname: jamesblack
+
+
+# Jekyll configuration
+
+source:      "/Users/Jimmy/epijim_sitesource"
+destination: "/Users/Jimmy/epijim.github.io"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: James Black
+  web: http://epijim.uk
+  email: james@epijim.uk
+  twitter:
+  bio: "Reading Epidemiology at Jesus College, University of Cambridge."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  google:
+    plus: https://plus.google.com/112022213613617220776/
+    ad-client: ca-pub-8433594162604860
+    ad-slot: 9138304032
+  github: "epijim"
+  stackoverflow:
+  linkedin:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

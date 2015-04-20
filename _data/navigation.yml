@@ -1,0 +1,25 @@
+# Site navigation links
+- title: About
+  url: /about/
+  excerpt: "Get more information on, or contact, James Black."
+  image: about_thumb.jpeg
+
+- title: Papers
+  url: /my-papers/
+  excerpt: "My published journal articles."
+  image: papers_thumb.png
+
+- title: Code
+  url: /code/
+  excerpt: "A collection of code snippets I think are really useful."
+  image: code_thumb.png
+
+- title: Blog
+  url: /blog/
+  excerpt: "My data based blog."
+  image: blog_thumb.jpg
+
+- title: Courses
+  url: /courses/
+  excerpt: Courses I've done relating to R or coding
+  image: courses.jpg

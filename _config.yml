@@ -11,8 +11,8 @@ disqus-shortname: jamesblack
 
 # Jekyll configuration
 
-source:      "/Users/Jimmy/epijim_sitesource"
-destination: "/Users/Jimmy/epijim.github.io"
+source:      "/Users/Jimmy/epijim_codebase"
+destination: "/Users/Jimmy/epijim_site"
 
 sass:
   sass_dir: _sass

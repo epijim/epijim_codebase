@@ -17,11 +17,13 @@ image:
 
 [Last week](http:epijim.uk/blog/when-cam-nice/) I plotted when the weather is nice in Cambridge.
 
+> Update (21 October 2015): Fixed a coding error that surfuced after shinyapps went public.
+
 After getting pointed towards the University Weather Station data, I decided to recreate it
 using the this better data source as an interactive app where people can define
 what nice means themselves.
 
-<iframe src="http://epijim.shinyapps.io/IsItNice/" name="weatherapp" scrolling="auto" frameborder="no" align="center" height = "1000px" width = "700px">
+<iframe src="https://epijim.shinyapps.io/Shiny_whenisnicecam" name="weatherapp" scrolling="auto" frameborder="no" align="center" height = "1000px" width = "700px">
 </iframe>
 
 This app is built using R, and hosted on the free Shiny servers on ShinyApps.io.

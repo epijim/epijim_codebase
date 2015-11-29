@@ -5,7 +5,7 @@ description: "Epidemiologist and data scientist"
 logo: 120x120.gif
 teaser: 400x250.gif
 locale: en_US
-url: http://0.0.0.0:4000 # https://epijim.uk # http://0.0.0.0:4000
+url: https://epijim.uk # https://epijim.uk # http://0.0.0.0:4000
 disqus-shortname: jamesblack
 
 
@@ -30,7 +30,7 @@ owner:
   web: http://epijim.uk
   email: james@epijim.uk
   twitter:
-  bio: "PhD in Epidemiology (candidate), MPhil, MPH, DPH, BBioMedSci"
+  bio: "PhD (Cantab), MPhil (Cantab), MPH"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   google:
     plus: https://plus.google.com/112022213613617220776/
